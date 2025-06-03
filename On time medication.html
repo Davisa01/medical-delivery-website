@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Matters in Specimen Transportation
+    </title>
+
+      <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dee Strong Medical Delivery-Best Medical Delivery in USA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+
+
+
+
+
+
+
+    <section style="max-width: 900px; margin: auto; padding: 40px 20px; font-family: Arial, sans-serif; color: #333;
+                    margin-top: 130px;
+    
+                    ">
+
+  <!-- Featured Image -->
+  <img src="image/diploma.webp" alt="On Time Medication Delivery" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; margin-bottom: 30px;">
+
+  <!-- Blog Title -->
+  <h1 style="font-size: 32px; margin-bottom: 20px; color: #111;">
+    On Time Medication Delivery You Can Count On!
+  </h1>
+
+  <!-- Blog Content -->
+  <p style="line-height: 1.8; margin-bottom: 20px;">
+    Timeliness can make all the difference in healthcare, especially when it comes to critical medications. At <strong>Dee Strong Medical Delivery</strong>, we understand the urgency and responsibility that comes with delivering medications to patients, clinics, and pharmacies across the region.
+  </p>
+
+  <p style="line-height: 1.8; margin-bottom: 20px;">
+    Whether it's a routine prescription or an emergency delivery, our trained couriers ensure your medications arrive safely, securely, and—most importantly—on time. We utilize real-time tracking, route optimization, and temperature-controlled vehicles to guarantee reliability.
+  </p>
+
+  <p style="line-height: 1.8; margin-bottom: 20px;">
+    When you trust Dee Strong Medical Delivery, you're not just getting a delivery service—you're getting peace of mind. Because we believe everyone deserves timely access to their medications, without compromise.
+  </p>
+
+  <!-- Read More -->
+  <a href="/service.html" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border-radius: 8px; text-decoration: none;">Read More About Our Services</a>
+
+  <!-- Comment Section -->
+  <section id="comments" style="margin-top: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 20px;">Leave a Comment</h2>
+    <form action="dee-strong-booking/booking.php" id="comment-form" style="display: flex; flex-direction: column; gap: 15px; max-width: 600px;">
+      <input type="text" id="name" name="name" placeholder="Your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 6px;">
+      <input type="email" id="email" name="email" placeholder="Your Email" required style="padding: 10px; border: 1px solid #ccc; border-radius: 6px;">
+      <textarea id="comment" name="comment" placeholder="Your Comment" rows="5" required style="padding: 10px; border: 1px solid #ccc; border-radius: 6px;"></textarea>
+      <button type="submit" style="padding: 12px; background-color: #000; color: #fff; border: none; border-radius: 6px; cursor: pointer;">Post Comment</button>
+    </form>
+  </section>
+</section>
+
+<script>
+  document.getElementById('comment-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you for your comment!');
+    this.reset();
+  });
+</script>
+
+
+
+
+
+
+ <!-- AOS Animate on Scroll -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+
+<!-- ✅ CountUp Script (Lightweight, Perfect) -->
+<script>
+  function animateCountUp(el) {
+    const target = +el.getAttribute('data-count');
+    let current = 0;
+    const duration = 2000;
+    const stepTime = 20;
+    const steps = Math.floor(duration / stepTime);
+    const increment = target / steps;
+
+    const counter = setInterval(() => {
+      current += increment;
+      if (current >= target) {
+        current = target;
+        clearInterval(counter);
+      }
+      el.textContent = Math.floor(current);
+    }, stepTime);
+  }
+
+  // Observe visibility
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCountUp(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('.countup').forEach(el => {
+    observer.observe(el);
+  });
+</script>
+
+
+
+
+
+  <script src="menu-toggle.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // duration of the animation in ms
+    once: true,     // animation triggers only once
+  });
+</script>
+
+
+
+
+
+
+<script>
+  const items = document.querySelectorAll('.accordion-item');
+
+  items.forEach(item => {
+    const header = item.querySelector('.accordion-header');
+
+    header.addEventListener('click', () => {
+      const openItem = document.querySelector('.accordion-item.active');
+      if (openItem && openItem !== item) {
+        openItem.classList.remove('active');
+      }
+      item.classList.toggle('active');
+    });
+  });
+</script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script>
+    flatpickr("#pickup-date", {
+      dateFormat: "Y-m-d"
+    });
+  </script>
+
+
+
+
+    
+</body>
+</html>

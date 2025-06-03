@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Matters in Specimen Transportation
+    </title>
+
+      <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dee Strong Medical Delivery-Best Medical Delivery in USA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles/style.css">
+<!-- Load Inter font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+
+    <section style="max-width: 900px; margin: auto; padding: 40px 20px; font-family: Arial, sans-serif; color: #333;">
+
+  <!-- Featured Image -->
+  <img src="image/braunability-turny-evo-seat-van - Copy.jpg" alt="Critical Delivery" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; margin-bottom: 30px;
+  
+            margin-top: 130px;
+            ">
+
+  <!-- Blog Title -->
+  <h1 style="font-size: 32px; margin-bottom: 20px; color: #111;">
+    Need Critical Items Delivered Fast? We've Got You Covered!
+  </h1>
+
+  <!-- Blog Content -->
+  <p style="line-height: 1.8; margin-bottom: 20px;">
+    In healthcare, delays can be dangerous. That’s why <strong>Dee Strong Medical Delivery</strong> specializes in rapid, dependable delivery of urgent medical items—from life-saving drugs to emergency supplies and surgical tools.
+  </p>
+
+  <p style="line-height: 1.8; margin-bottom: 20px;">
+    Our express delivery team is trained to act with speed and precision. Using real-time tracking, optimized routing, and 24/7 availability, we ensure your critical items arrive exactly when and where they’re needed—with zero compromise on safety or compliance.
+  </p>
+
+  <p style="line-height: 1.8; margin-bottom: 20px;">
+    When every second counts, count on Dee Strong. Because urgency isn’t just part of our service—it’s the foundation of it.
+  </p>
+
+  <!-- Read More -->
+  <a href="/service.html" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border-radius: 8px; text-decoration: none;">Read More About Our Services</a>
+
+  <!-- Comment Section -->
+  <section id="comments" style="margin-top: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 20px;">Leave a Comment</h2>
+    <form action="dee-strong-booking/booking.php" id="comment-form" style="display: flex; flex-direction: column; gap: 15px; max-width: 600px;">
+      <input type="text" id="name" name="name" placeholder="Your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 6px;">
+      <input type="email" id="email" name="email" placeholder="Your Email" required style="padding: 10px; border: 1px solid #ccc; border-radius: 6px;">
+      <textarea id="comment" name="comment" placeholder="Your Comment" rows="5" required style="padding: 10px; border: 1px solid #ccc; border-radius: 6px;"></textarea>
+      <button type="submit" style="padding: 12px; background-color: #000; color: #fff; border: none; border-radius: 6px; cursor: pointer;">Post Comment</button>
+    </form>
+  </section>
+</section>
+
+<script>
+  document.getElementById('comment-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you for your comment! ');
+    this.reset();
+  });
+</script>
+
+
+
+
+
+
+ <!-- AOS Animate on Scroll -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+
+<!-- ✅ CountUp Script (Lightweight, Perfect) -->
+<script>
+  function animateCountUp(el) {
+    const target = +el.getAttribute('data-count');
+    let current = 0;
+    const duration = 2000;
+    const stepTime = 20;
+    const steps = Math.floor(duration / stepTime);
+    const increment = target / steps;
+
+    const counter = setInterval(() => {
+      current += increment;
+      if (current >= target) {
+        current = target;
+        clearInterval(counter);
+      }
+      el.textContent = Math.floor(current);
+    }, stepTime);
+  }
+
+  // Observe visibility
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCountUp(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('.countup').forEach(el => {
+    observer.observe(el);
+  });
+</script>
+
+
+
+
+
+  <script src="menu-toggle.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // duration of the animation in ms
+    once: true,     // animation triggers only once
+  });
+</script>
+
+
+
+
+
+
+<script>
+  const items = document.querySelectorAll('.accordion-item');
+
+  items.forEach(item => {
+    const header = item.querySelector('.accordion-header');
+
+    header.addEventListener('click', () => {
+      const openItem = document.querySelector('.accordion-item.active');
+      if (openItem && openItem !== item) {
+        openItem.classList.remove('active');
+      }
+      item.classList.toggle('active');
+    });
+  });
+</script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script>
+    flatpickr("#pickup-date", {
+      dateFormat: "Y-m-d"
+    });
+  </script>
+
+
+
+
+    
+</body>
+</html>
